@@ -1,0 +1,103 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.hero {
+    background-color: #F0F8FF;
+    padding: 20px 20px;  
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.hero h1 {
+    font-size: 36px;  
+    color: #2B7CB3;
+    margin-bottom: 15px; 
+}
+
+.hero p {
+    font-size: 24px;
+    color: #666;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.profile-section {
+    display: flex;
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 0 20px;
+    gap: 40px;
+    align-items: center;
+}
+
+.profile-image {
+    width: 300px;
+    height: 300px;
+    background-color: #B8D8E8;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+.profile-text {
+    flex: 1;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.services-section {
+    background-color: #F8FBFD;
+    padding: 80px 20px;
+}
+
+.services-title {
+    text-align: center;
+    font-size: 36px;
+    color: #2B7CB3;
+    margin-bottom: 50px;
+}
+
+.services-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.service {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: transform 0.2s;
+}
+
+.service:hover {
+    transform: translateY(-5px);
+}
+
+.service-title {
+    background-color: #B8D8E8;
+    padding: 15px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #2B7CB3;
+}
+
+.service-description {
+    padding: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.zigzag {
+    width: 100%;
+    height: 30px;
+    background: linear-gradient(45deg, transparent 33.333%, #2B7CB3 33.333%, #2B7CB3 66.667%, transparent 66.667%),
+                linear-gradient(-45deg, transparent 33.333%, #2B7CB3 33.333%, #2B7CB3 66.667%, transparent 66.667%);
+    background-size: 20px 40px;
+}
